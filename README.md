@@ -8,3 +8,5 @@ Artwork for the [NixOS](http://nixos.org) organization.
 * [Mailing list](http://lists.science.uu.nl/mailman/listinfo/nix-dev)
 * [IRC - #nixos on freenode.net](irc://irc.freenode.net/#nixos)
 
+** BIG NOTE ** the directory layout is in flux. Do not assume anything
+about the stability of the path of the images in this repository, yet.
