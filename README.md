@@ -10,3 +10,9 @@ Artwork for the [NixOS](http://nixos.org) organization.
 
 ** BIG NOTE ** the directory layout is in flux. Do not assume anything
 about the stability of the path of the images in this repository, yet.
+
+References to other distros:
+
+* [https://wiki.debian.org/Grub/SplashImage]
+* [https://github.com/openSUSE/artwork]
+* [https://gitorious.org/opensuse/kdebase4-opensuse/]
