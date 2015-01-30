@@ -1,4 +1,4 @@
-Artwork for the [NixOS](http://nixos.org) organization.
+## Artwork for the [NixOS](http://nixos.org) organization.
 
 * [NixOS installation instructions](http://nixos.org/nixos/manual/#ch-installation)
 * [Manual (How to write packages for Nix)](http://nixos.org/nixpkgs/manual/)
@@ -11,8 +11,8 @@ Artwork for the [NixOS](http://nixos.org) organization.
 ** BIG NOTE ** the directory layout is in flux. Do not assume anything
 about the stability of the path of the images in this repository, yet.
 
-References to other distros:
+References to other Linux distributions: 
 
-* https://wiki.debian.org/Grub/SplashImage
-* https://github.com/openSUSE/artwork
-* https://gitorious.org/opensuse/kdebase4-opensuse/
+* <https://wiki.debian.org/Grub/SplashImage>
+* <https://github.com/openSUSE/artwork>
+* <https://gitorious.org/opensuse/kdebase4-opensuse/>
