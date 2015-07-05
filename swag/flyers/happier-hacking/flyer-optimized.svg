@@ -1,0 +1,58 @@
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="1052.4" width="744.09" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 744.09449 1052.3622" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs>
+  <clipPath id="clipPath2451" clipPathUnits="userSpaceOnUse">
+   <rect height="22.054" width="13.036" stroke="#4040c0" y="410.77" x="102.94" fill="#4040c0"/>
+  </clipPath>
+ </defs>
+ <g font-family="&apos;Myriad Web Pro&apos;">
+  <text style="word-spacing:0px;letter-spacing:0px;text-anchor:end;text-align:end" xml:space="preserve" font-size="42.337px" line-height="125%" y="460.45779" x="714.76233" fill="#808080"><tspan style="text-anchor:end;text-align:end" font-size="31.25px" y="460.45779" x="714.76233" fill="#808080"/></text>
+  <text style="word-spacing:0px;letter-spacing:0px;text-anchor:end;text-align:end" xml:space="preserve" font-size="40px" line-height="125%" y="984.5802" x="690.12494" fill="#000000"><tspan style="text-anchor:end;text-align:end" y="984.5802" x="690.12494" font-family="&apos;Varela Round&apos;" fill="#808080"><g><tspan fill="#606060">Nix</tspan><tspan fill="#000000">OS</tspan><tspan fill="#606060">.org</tspan></g></tspan></text>
+ </g>
+ <g>
+  <text style="word-spacing:0px;letter-spacing:0px;text-anchor:middle;text-align:center" xml:space="preserve" transform="scale(.99154 1.0085)" line-height="125%" font-size="35.978px" y="297.65717" x="376.23172" font-family="&apos;Myriad Web Pro&apos;" fill="#808080"><tspan font-size="33.464px" y="297.65717" x="376.23172" font-family="&apos;Varela Round&apos;" fill="#000000">The Purely Functional Linux Distribution</tspan></text>
+  <g stroke-linecap="round" fill="none">
+   <path d="m102.08 125.81v91.717" stroke="#606060" stroke-width="10.354"/>
+   <g stroke-width="16">
+    <g transform="matrix(.64712 0 0 .64712 241.08 -131)" stroke="#000000">
+     <path d="m-153.43 361.42-122.74 70.866"/>
+     <path d="m-214.8 396.85-34.97-20.19-26.402-15.243"/>
+    </g>
+    <g transform="matrix(.64712 0 0 .64712 241.08 -131)" stroke="#606060">
+     <path d="m-92.058 396.85-122.74-70.87"/>
+     <path d="m-153.43 361.42v-33.024-37.842"/>
+    </g>
+    <g transform="matrix(.64712 0 0 .64712 241.08 -131)" stroke="#000000">
+     <path d="m-92.058 467.72v-141.73"/>
+     <path d="m-92.058 396.85 61.372-35.43"/>
+    </g>
+    <g transform="matrix(.64712 0 0 .64712 241.08 -131)" stroke="#606060">
+     <path d="m-153.43 503.15 122.74-70.87"/>
+     <path d="m-92.058 467.72 61.372 35.433"/>
+    </g>
+    <g transform="matrix(.64712 0 0 .64712 241.08 -131)" stroke="#000000">
+     <path d="m-214.8 467.72 122.74 70.866"/>
+     <path d="m-153.43 503.15v70.866"/>
+    </g>
+   </g>
+   <path d="m102.08 171.67-39.715 22.93" stroke="#606060" stroke-width="10.354"/>
+   <path d="m110 402.36v24.547" clip-path="url(#clipPath2451)" transform="matrix(3.7364 0 0 3.7364 -308.92 -1377.6)" stroke="#606060" stroke-width="2.7711"/>
+  </g>
+  <text font-weight="bold" xml:space="preserve" font-size="160.66px" y="200.15105" x="255.77504" font-family="Sans" fill="#808080"><tspan font-weight="normal" font-size="144.83px" y="200.15105" x="255.77504" font-family="&apos;Varela Round&apos;"><tspan fill="#606060">Nix</tspan><tspan fill="#000000">OS</tspan></tspan></text>
+  <g font-size="40px" font-family="&apos;Bitstream Vera Sans&apos;" fill="#000000">
+   <flowRoot xml:space="preserve" transform="translate(44.806 -164.83)"><flowRegion><rect y="229.15" x="359.64" width="175" height="61.429"/></flowRegion><flowPara/></flowRoot>
+   <flowRoot xml:space="preserve" transform="translate(44.806 -164.83)"><flowRegion><rect y="327.01" x="326.43" width="276.79" height="67.5"/></flowRegion><flowPara/></flowRoot>
+   <flowRoot xml:space="preserve" transform="translate(44.806 -164.83)"><flowRegion><rect y="323.08" x="299.64" width="292.14" height="68.571"/></flowRegion><flowPara/></flowRoot>
+   <flowRoot xml:space="preserve" transform="translate(44.806 -164.83)"><flowRegion><rect y="203.43" x="272.14" width="254.64" height="126.07"/></flowRegion><flowPara/></flowRoot>
+  </g>
+  <rect id="rect6357" height="560" width="629.49" y="362.36" x="60.4" fill="none"/>
+ </g>
+ <g font-size="31.25px" fill="#bfb2bf" font-family="&apos;Myriad Web Pro&apos;" display="none">
+  <flowRoot style="word-spacing:0px;letter-spacing:0px;text-align:justify" xml:space="preserve" transform="translate(0 -.0000073828)" display="inline" line-height="125%"><flowRegion><use xlink:href="#rect6357" height="100%" width="100%" y="0" x="0"/></flowRegion><flowPara font-family="&apos;Varela Round&apos;"><flowSpan font-size="36.25px">Atomic Upgrades, Package Isolation</flowSpan>, <flowSpan fill="#808080" font-size="38.75px">Declarative System Configuration, </flowSpan><flowSpan font-size="33.75px">Rollbacks, Composable, Collaboration,</flowSpan><flowSpan font-size="41.25px"> Source + Binary, Multi-user,</flowSpan><flowSpan font-size="37.5px"> Cross Platform Package Manager, </flowSpan><flowSpan fill="#808080" font-size="35px">NixOps, </flowSpan><flowSpan font-size="35px">Profile Generations, Reliable,</flowSpan> Build Farm, One-Click Install, <flowSpan fill="#808080">Containers,</flowSpan><flowSpan font-size="48.75px"> Import / Export Closures, </flowSpan><flowSpan font-size="27.5px">Development Environments, Reliable + Fresh, Purity, Happier Hacking, Reproducible, Overrides … Som</flowSpan></flowPara></flowRoot>
+  <flowRoot style="word-spacing:0px;letter-spacing:0px;text-align:justify" xml:space="preserve" transform="translate(0 -.0000073828)" display="inline" line-height="125%"><flowRegion><use xlink:href="#rect6357" height="100%" width="100%" y="0" x="0"/></flowRegion><flowPara font-family="&apos;Varela Round&apos;"><flowSpan font-size="36.25px">Atomic Upgrades, Package Isolation</flowSpan>, <flowSpan fill="#808080" font-size="38.75px">Declarative System Configuration, </flowSpan><flowSpan font-size="33.75px">Rollbacks, Composable, Collaboration,</flowSpan><flowSpan font-size="41.25px"> Source + Binary, Multi-user,</flowSpan><flowSpan font-size="37.5px"> Cross Platform Package Manager, </flowSpan><flowSpan fill="#808080" font-size="35px">NixOps, </flowSpan><flowSpan font-size="35px">Profile Generations, Reliable,</flowSpan> Build Farm, One-Click Install, <flowSpan fill="#808080">Containers,</flowSpan><flowSpan font-size="48.75px"> Import / Export Closures, </flowSpan><flowSpan font-size="27.5px">Development Environments, Reliable + Fresh, Purity, Happier Hacking, Reproducible, Overrides … Som</flowSpan></flowPara></flowRoot>
+  <flowRoot style="word-spacing:0px;letter-spacing:0px;text-align:justify" xml:space="preserve" transform="translate(0 -.0000073828)" display="inline" line-height="125%"><flowRegion><use xlink:href="#rect6357" height="100%" width="100%" y="0" x="0"/></flowRegion><flowPara font-family="&apos;Varela Round&apos;"><flowSpan font-size="36.25px">Atomic Upgrades, Package Isolation</flowSpan>, <flowSpan fill="#808080" font-size="38.75px">Declarative System Configuration, </flowSpan><flowSpan font-size="33.75px">Rollbacks, Composable, Collaboration,</flowSpan><flowSpan font-size="41.25px"> Source + Binary, Multi-user,</flowSpan><flowSpan font-size="37.5px"> Cross Platform Package Manager, </flowSpan><flowSpan fill="#808080" font-size="35px">NixOps, </flowSpan><flowSpan font-size="35px">Profile Generations, Reliable,</flowSpan> Build Farm, One-Click Install, <flowSpan fill="#808080">Containers,</flowSpan><flowSpan font-size="48.75px"> Import / Export Closures, </flowSpan><flowSpan font-size="27.5px">Development Environments, Reliable + Fresh, Purity, Happier Hacking, Reproducible, Overrides … Som</flowSpan></flowPara></flowRoot>
+ </g>
+ <g>
+  <flowRoot style="word-spacing:0px;letter-spacing:0px;text-align:justify" xml:space="preserve" transform="translate(0 -.0000073828)" line-height="125%" font-size="31.25px" font-family="&apos;Myriad Web Pro&apos;" fill="#bfb2bf"><flowRegion><use xlink:href="#rect6357" height="100%" width="100%" y="0" x="0"/></flowRegion><flowPara font-family="&apos;Varela Round&apos;"/></flowRoot>
+  <flowRoot style="word-spacing:0px;letter-spacing:0px;text-align:justify" xml:space="preserve" transform="translate(.32229 .44213)" line-height="125%" font-size="37.5px" font-family="&apos;Varela Round&apos;" fill="#606060"><flowRegion><use xlink:href="#rect6357" height="100%" width="100%" y="0" x="0"/></flowRegion><flowPara line-height="150%" fill="#606060"><g fill="#606060"><flowSpan font-size="47.5px" line-height="150%">Happier Hacking, Rollbacks Reliable + Fresh, Build Farm </flowSpan><flowSpan font-size="40px" line-height="150%">One-Click Install, Source + Binary </flowSpan><flowSpan font-size="38.75px" line-height="150%">Cross Platform Package Manager Declarative System Configuration </flowSpan><flowSpan font-size="36.25px" line-height="150%">Atomic Upgrades, Package Isolation </flowSpan><flowSpan font-size="33.75px" line-height="150%">Development Environments, Overrides Import / Export Closures, Collaboration </flowSpan><flowSpan font-size="31.25px" line-height="150%">Profile Generations, Multi-user, NixOps  …</flowSpan><flowSpan font-size="32.5px" line-height="150%"> Som</flowSpan></g></flowPara><flowPara font-size="32.5px" line-height="150%" fill="#606060"/></flowRoot>
+ </g>
+</svg>
