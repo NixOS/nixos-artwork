@@ -5,7 +5,7 @@
 * [Manual (NixOS)](http://nixos.org/nixos/manual/)
 * [Continuous build](http://hydra.nixos.org/jobset/nixos/trunk-combined)
 * [Tests](http://hydra.nixos.org/job/nixos/trunk-combined/tested#tabs-constituents)
-* [Mailing list](http://lists.science.uu.nl/mailman/listinfo/nix-dev)
+* [Mailing list](https://groups.google.com/forum/#!forum/nix-devel)
 * [IRC - #nixos on freenode.net](irc://irc.freenode.net/#nixos)
 
 ** BIG NOTE ** the directory layout is in flux. Do not assume anything
