@@ -15,3 +15,10 @@ The font used is *[Vegur](http://dotcolon.net/font/vegur/)*, a CC0 font,
 [as contributed to the *nixos-homepage*](https://github.com/NixOS/nixos-homepage/blob/3219f5449643f5ee73095b1944f349b646ccf9c8/logo/nixos-hex.svg)
 project. (Disregard the presence of *Carlito* font-family, it is an artifact
 from the way the text boxes were made.)
+
+### Using the logo
+
+The svg source files have a *logo-guide* and those with text a *guide* layer.
+Ensure the snowflake has at least the given margin with any other elements with
+other elements when used. The source SVG files with text already have the
+margin baked into the files.
