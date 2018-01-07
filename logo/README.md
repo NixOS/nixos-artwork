@@ -1,0 +1,17 @@
+NixOS Logo
+==========
+
+Technicalities
+--------------
+
+### Font
+
+A logo with the baked-in outline is made available and is recognized as the
+*de-facto* version of the logo, since the font's exact revision, for its
+metrics and the software used to produce the outlines is unknown. Using a
+recent revision of the font with a recent inkscape produces different outlines.
+
+The font used is *[Vegur](http://dotcolon.net/font/vegur/)*, a CC0 font,
+[as contributed to the *nixos-homepage*](https://github.com/NixOS/nixos-homepage/blob/3219f5449643f5ee73095b1944f349b646ccf9c8/logo/nixos-hex.svg)
+project. (Disregard the presence of *Carlito* font-family, it is an artifact
+from the way the text boxes were made.)
