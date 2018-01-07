@@ -1,6 +1,9 @@
 NixOS Logo
 ==========
 
+This is the canonical location of the NixOS logo, affectionately called the
+*Nix Snowflake*.
+
 Technicalities
 --------------
 
