@@ -22,3 +22,10 @@ The svg source files have a *logo-guide* and those with text a *guide* layer.
 Ensure the snowflake has at least the given margin with any other elements with
 other elements when used. The source SVG files with text already have the
 margin baked into the files.
+
+License
+-------
+
+The logo is made available under a [CC-BY license](https://creativecommons.org/licenses/by/4.0/).
+
+ * [Nix-dev mailing list, Sun Oct 2 08:49:55 CEST 2016](https://nixos.org/nix-dev/2016-October/021876.html)
