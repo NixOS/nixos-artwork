@@ -349,7 +349,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="gradient-logo"
-     style="display:none;opacity:1"
+     style="display:inline;opacity:1"
      sodipodi:insensitive="true"
      transform="translate(-132.5822,958.04022)">
     <path
@@ -361,7 +361,7 @@
     <use
        height="100%"
        width="100%"
-       transform="matrix(0.5,0.8660254,-0.8660254,0.5,-416.33416,-710.46256)"
+       transform="rotate(60,407.11155,-715.78724)"
        id="use3439-6"
        inkscape:transform-center-y="151.59082"
        inkscape:transform-center-x="124.43045"
@@ -371,7 +371,7 @@
     <use
        height="100%"
        width="100%"
-       transform="matrix(0.5,-0.8660254,0.8660254,0.5,823.4704,-5.1077382)"
+       transform="rotate(-60,407.31177,-715.70016)"
        id="use3445-0"
        inkscape:transform-center-y="75.573958"
        inkscape:transform-center-x="-168.20651"
@@ -381,7 +381,7 @@
     <use
        height="100%"
        width="100%"
-       transform="matrix(-1,0,0,-1,814.83737,-1431.513)"
+       transform="rotate(180,407.41868,-715.7565)"
        id="use3449-5"
        inkscape:transform-center-y="-139.94592"
        inkscape:transform-center-x="59.669705"
@@ -397,7 +397,7 @@
     <use
        height="100%"
        width="100%"
-       transform="matrix(-0.5,0.8660254,-0.8660254,-0.5,-9.1378071,-1426.8914)"
+       transform="rotate(120,407.33916,-716.08356)"
        id="use4354-5"
        xlink:href="#path4260-0"
        y="0"
@@ -406,7 +406,7 @@
     <use
        height="100%"
        width="100%"
-       transform="matrix(-0.5,-0.8660254,0.8660254,-0.5,1230.8939,-721.08298)"
+       transform="rotate(-120,407.28823,-715.86995)"
        id="use4362-2"
        xlink:href="#path4260-0"
        y="0"
