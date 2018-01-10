@@ -3,10 +3,11 @@ Bootloader artwork
 
 This directory holds the artwork used for the NixOS bootloaders.
 
-`bios-boot`
+
+`isolinux`
 -----------
 
-The bootloader for legacy boot, specifically the ISO/USB image.
+A bootloader for legacy boot, specifically the ISO/USB image.
 
 It is assumed it is of the SYSLINUX family, probably ISOLINUX.
 
