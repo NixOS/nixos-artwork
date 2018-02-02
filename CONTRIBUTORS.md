@@ -55,3 +55,10 @@ repository.
       * `common/grub2-background/grub-nixos-2.xcf`
       * `common/grub2-background/grub-nixos-3.png`
       * `common/grub2-background/grub-nixos-3.xcf`
+
+## @mogorman
+  * cc0
+      * relases/17.09-hummingbird/hummingbird.xcf
+      * relases/17.09-hummingbird/hummingbird.png
+      * releases/18.03-impala/impala.xcf
+      * releases/18.03-impala/impala.png
