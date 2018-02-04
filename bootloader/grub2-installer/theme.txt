@@ -1,0 +1,78 @@
+#
+# This website explains the theme format much better than grub's own documentation:
+#  → http://wiki.rosalab.ru/en/index.php/Grub2_theme_tutorial
+#
+# Icons are adapted from Breeze
+# Colors: https://community.kde.org/KDE_Visual_Design_Group/HIG/Color
+#
+
+# An image is used instead.
+title-text: ""
+title-font: "DejaVu Regular 20"
+title-color: "#ffffff"
+
++ image {
+	top = 5%
+	height = 100
+	width = 319
+	left = 50%-160 # (image width) / 2 = 160
+	file = "logo.png"
+}
+
+# A background image is *always* necessary due to a bug.
+desktop-image: "background.png"
+message-font: "DejaVu Regular 20"
+message-color: "#ffffff"
+
+# This font is provided, by default, by NixOS.
+terminal-font: "Unifont Regular 16"
+terminal-box: "terminal_*.png"
+
+#
+# FIXME : Make it a /¯¯¯¯¯¯¯¯¯/ shape
+#                   ¯¯¯¯¯¯¯¯¯¯
++ progress_bar {
+	id = "__timeout__"
+	top = 95%-32
+	left  = 50%-25%
+	height = 32
+	width = 50%
+	show_text = false
+	text = ""
+
+	border_color = #5579C4
+	bg_color = #7EBAE4
+	fg_color = #5579C4
+}
+
++ boot_menu {
+	left = 50%-400 # menu width / 2
+	width = 800
+	top = 5%+100+5%
+	# Keep the menu off the logo and the progress bar.
+	height = 100%-5%-100-5%-5%-32-5%
+	#             ^   ^  ^  ^  ^  ^
+	#             |   |  |  |  |  \ 5% between progress and bottom
+	#             |   |  |  |  \  height of progress
+	#             |   |  |  \  5% between progress and this
+	#             |   |  \  5% between logo and this
+	#             |   \ height of logo
+	#             \ 5% from the top
+
+	item_font = "DejaVu Regular 20"
+	item_color = "#232627"
+	item_height = 48
+	item_icon_space = 12
+	item_spacing = 2
+
+	selected_item_font = "DejaVu Regular 20"
+	selected_item_color= "#232627"
+	selected_item_pixmap_style = "select_*.png"
+
+	icon_height = 32
+	icon_width = 42
+
+	scrollbar = false
+
+	menu_pixmap_style = "boot_menu_*.png"
+}

@@ -21,6 +21,19 @@ assuming 4:3 aspect ratio; most of the legacy boot uses are assumed to be on
 virtual machines, where the bootloader will be shown with square pixels.
 
 
+`grub2-installer`
+----------------
+
+Bootloader that can be themed more extensively than others. This theme is
+initially built for the installer image. It may be adapted or forked for use
+with an installed NixOS suystem later.
+
+### `grub2-installer/icons`
+
+Icons are from or adapted from the breeze icons projects of KDE, available
+under the LGPL license.
+
+
 `refind`
 --------
 
