@@ -62,3 +62,10 @@ repository.
       * `common/grub2-background/grub-nixos-2.xcf`
       * `common/grub2-background/grub-nixos-3.png`
       * `common/grub2-background/grub-nixos-3.xcf`
+
+## @samueldr
+
+  * CC BY-SA 4.0 (by nixos-artwork), with Breeze Icons under LGPL.
+      * `bootloader/grub2-installer`
+      * `bootloader/isolinux`
+      * `bootloader/refind`
