@@ -17,7 +17,7 @@ repository.
 
 ## @ericsagnes
 
-  * No specific license, all rights reserved @ericsagnes. PR #15
+  * cc0 PR #15
       * `wallpapers/nix-wallpaper-mosaic-blue.png`
       * `wallpapers/nix-wallpaper-simple-blue.png`
       * `wallpapers/nix-wallpaper-simple-dark-gray.png`
