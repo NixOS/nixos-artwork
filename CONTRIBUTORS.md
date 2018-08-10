@@ -44,6 +44,13 @@ repository.
       * `kde/share/wallpapers/nixos-stripes/nixos-stripes.png`
       * `kde/share/wallpapers/nixos-stripes/nixos-stripes.xcf`
 
+## @mogorman
+  * cc0
+      * relases/17.09-hummingbird/hummingbird.xcf
+      * relases/17.09-hummingbird/hummingbird.png
+      * releases/18.03-impala/impala.xcf
+      * releases/18.03-impala/impala.png
+
 ## @robberer
 
   * No specific license, all rights reserved @robberer. PR #5
@@ -56,9 +63,9 @@ repository.
       * `common/grub2-background/grub-nixos-3.png`
       * `common/grub2-background/grub-nixos-3.xcf`
 
-## @mogorman
-  * cc0
-      * relases/17.09-hummingbird/hummingbird.xcf
-      * relases/17.09-hummingbird/hummingbird.png
-      * releases/18.03-impala/impala.xcf
-      * releases/18.03-impala/impala.png
+## @samueldr
+
+  * CC BY-SA 4.0 (by nixos-artwork), with Breeze Icons under LGPL.
+      * `bootloader/grub2-installer`
+      * `bootloader/isolinux`
+      * `bootloader/refind`
