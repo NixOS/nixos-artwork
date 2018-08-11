@@ -8,7 +8,7 @@
 
 # An image is used instead.
 title-text: ""
-title-font: "DejaVu Regular 20"
+title-font: "DejaVu Regular"
 title-color: "#ffffff"
 
 + image {
@@ -21,11 +21,11 @@ title-color: "#ffffff"
 
 # A background image is *always* necessary due to a bug.
 desktop-image: "background.png"
-message-font: "DejaVu Regular 20"
+message-font: "DejaVu Regular"
 message-color: "#ffffff"
 
 # This font is provided, by default, by NixOS.
-terminal-font: "Unifont Regular 16"
+terminal-font: "Unifont Regular"
 terminal-box: "terminal_*.png"
 
 #
@@ -59,13 +59,13 @@ terminal-box: "terminal_*.png"
 	#             |   \ height of logo
 	#             \ 5% from the top
 
-	item_font = "DejaVu Regular 20"
+	item_font = "DejaVu Regular"
 	item_color = "#232627"
 	item_height = 48
 	item_icon_space = 12
 	item_spacing = 2
 
-	selected_item_font = "DejaVu Regular 20"
+	selected_item_font = "DejaVu Regular"
 	selected_item_color= "#232627"
 	selected_item_pixmap_style = "select_*.png"
 

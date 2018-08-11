@@ -15,4 +15,4 @@ for p in $buildInputs; do
 	DEJA="$p"
 done
 
-grub-mkfont -s 20 "$DEJA/share/fonts/truetype/DejaVuSans.ttf" -o dejavu_20.pf2
+grub-mkfont -s 20 "$DEJA/share/fonts/truetype/DejaVuSans.ttf" -o dejavu.pf2
