@@ -12,7 +12,7 @@ title-font: "DejaVu Regular"
 title-color: "#ffffff"
 
 + image {
-	top = 5%
+	top = 3%
 	height = 100
 	width = 319
 	left = 50%-160 # (image width) / 2 = 160
@@ -48,22 +48,23 @@ terminal-box: "terminal_*.png"
 + boot_menu {
 	left = 50%-400 # menu width / 2
 	width = 800
-	top = 5%+100+5%
+	top = 3%+100+3%
 	# Keep the menu off the logo and the progress bar.
-	height = 100%-5%-100-5%-5%-32-5%
+	height = 100%-3%-100-3%-3%-32-3%
 	#             ^   ^  ^  ^  ^  ^
-	#             |   |  |  |  |  \ 5% between progress and bottom
+	#             |   |  |  |  |  \ 3% between progress and bottom
 	#             |   |  |  |  \  height of progress
-	#             |   |  |  \  5% between progress and this
-	#             |   |  \  5% between logo and this
+	#             |   |  |  \  3% between progress and this
+	#             |   |  \  3% between logo and this
 	#             |   \ height of logo
-	#             \ 5% from the top
+	#             \ 3% from the top
 
 	item_font = "DejaVu Regular"
 	item_color = "#232627"
-	item_height = 48
+	item_height = 40
 	item_icon_space = 12
-	item_spacing = 2
+	item_spacing = 0
+	item_padding = 0
 
 	selected_item_font = "DejaVu Regular"
 	selected_item_color= "#232627"
