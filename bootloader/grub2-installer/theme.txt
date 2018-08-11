@@ -37,8 +37,8 @@ terminal-box: "terminal_*.png"
 	left  = 50%-25%
 	height = 32
 	width = 50%
-	show_text = false
-	text = ""
+	show_text = true
+	text = "@TIMEOUT_NOTIFICATION_MIDDLE@"
 
 	border_color = #5579C4
 	bg_color = #7EBAE4
