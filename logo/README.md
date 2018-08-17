@@ -14,10 +14,18 @@ A logo with the baked-in outline is made available and is recognized as the
 metrics and the software used to produce the outlines is unknown. Using a
 recent revision of the font with a recent inkscape produces different outlines.
 
-The font used is *[Vegur](http://dotcolon.net/font/vegur/)*, a CC0 font,
-[as contributed to the *nixos-homepage*](https://github.com/NixOS/nixos-homepage/blob/3219f5449643f5ee73095b1944f349b646ccf9c8/logo/nixos-hex.svg)
-project. (Disregard the presence of *Carlito* font-family, it is an artifact
-from the way the text boxes were made.)
+The font used is *[Vegur](http://dotcolon.net/font/vegur/)*, a CC0 font.
+The revision used is one of the harder to find revisions, either 0.601 or [0.602](https://web.archive.org/web/20120828195558/http://www.dotcolon.net:80/font/?id=vegur).
+
+Do note that the original logo as designed has manually positioned O and S, and
+a manually transformed O shape.
+
+The manual adjustments have been faithfully re-created over the existing
+de-facto version of the logo in `nixos.text.svg` if it can be useful. The main
+idea behind the adjustments seems to keep the round letters narrower (letters
+like O and C). The file has been built expecting the **Vegur602** font family
+instead of the *Vegur* font family. Such a font family can be built using the
+derivation and source files provided in the font folder.
 
 ### Using the logo
 
