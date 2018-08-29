@@ -32,4 +32,12 @@ rec {
     };
   };
 
+  # Compatibility with previous attribute.
+  gnomeDark = nix-wallpaper-simple-dark-gray-bottom;
+
+  nix-wallpaper-simple-dark-gray-bottom = mkBackground {
+    backgroundName = "nixos-dark";
+    backgroundFile = ../wallpapers/nix-wallpaper-simple-dark-gray_bottom.png;
+  };
+
 }
