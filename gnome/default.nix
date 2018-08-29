@@ -32,9 +32,4 @@ rec {
     };
   };
 
-  gnomeDark = mkBackground {
-    backgroundName = "Gnome_Dark";
-    backgroundFile = ./share/backgrounds/gnome/Gnome_Dark.jpg;
-  };
-
 }
