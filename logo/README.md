@@ -40,3 +40,8 @@ License
 The logo is made available under a [CC-BY license](https://creativecommons.org/licenses/by/4.0/).
 
  * [Nix-dev mailing list, Sun Oct 2 08:49:55 CEST 2016](https://nixos.org/nix-dev/2016-October/021876.html)
+
+Credits
+-------
+
+Logo designed by Tim Cuthbertson (@timbertson)
