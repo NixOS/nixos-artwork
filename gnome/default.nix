@@ -32,9 +32,12 @@ rec {
     };
   };
 
-  gnomeDark = mkBackground {
-    backgroundName = "Gnome_Dark";
-    backgroundFile = ./share/backgrounds/gnome/Gnome_Dark.jpg;
+  # Compatibility with previous attribute.
+  gnomeDark = nix-wallpaper-simple-dark-gray-bottom;
+
+  nix-wallpaper-simple-dark-gray-bottom = mkBackground {
+    backgroundName = "nixos-dark";
+    backgroundFile = ../wallpapers/nix-wallpaper-simple-dark-gray_bottom.png;
   };
 
 }
