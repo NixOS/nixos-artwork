@@ -63,32 +63,6 @@
          offset="1"
          id="stop5059" />
     </linearGradient>
-    <linearGradient
-       id="linearGradient5960"
-       inkscape:collect="always">
-      <stop
-         id="stop5962"
-         offset="0"
-         style="stop-color:#637ddf;stop-opacity:1" />
-      <stop
-         style="stop-color:#649afa;stop-opacity:1"
-         offset="0.23168644"
-         id="stop5964" />
-      <stop
-         id="stop5966"
-         offset="1"
-         style="stop-color:#719efa;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient
-       y2="515.97058"
-       x2="282.26105"
-       y1="338.62445"
-       x1="213.95642"
-       gradientTransform="translate(983.36076,601.38885)"
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient5855"
-       xlink:href="#linearGradient5960"
-       inkscape:collect="always" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -230,13 +204,6 @@
      transform="translate(72.039038,-1799.4476)"
      inkscape:groupmode="layer"
      style="display:none">
-    <path
-       sodipodi:nodetypes="ccccccccc"
-       inkscape:connector-curvature="0"
-       id="path5851"
-       d="m 1216.5591,938.53395 123.0545,228.14035 -42.6807,-1.2616 -43.4823,-79.7725 -39.6506,80.3267 -32.6875,-19.7984 53.4737,-100.2848 -37.1157,-73.88955 z"
-       transform="translate(0,-308.26772)"
-       style="fill:url(#linearGradient5855);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <rect
        id="rect5884"
        width="48.834862"
