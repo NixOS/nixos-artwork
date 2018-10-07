@@ -260,15 +260,23 @@
            offset="1"
            id="stop5059" />
       </linearGradient>
+      <use
+         id="lambda-gradient-light"
+         style="fill:url(#gradient-light)"
+         xlink:href="#lambda"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         id="lambda-gradient-dark"
+         style="fill:url(#gradient-dark)"
+         xlink:href="#lambda"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
     </defs>
-    <use
-       id="lambda-gradient-light"
-       style="fill:url(#gradient-light)"
-       xlink:href="#lambda"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%" />
     <use
        height="100%"
        width="100%"
@@ -300,14 +308,6 @@
        y="0"
        x="0" />
     <use
-       id="lambda-gradient-dark"
-       style="fill:url(#gradient-dark)"
-       xlink:href="#lambda"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%" />
-    <use
        height="100%"
        width="100%"
        transform="rotate(120,407.33916,-716.08356)"
@@ -316,6 +316,14 @@
        y="0"
        x="0"
        style="display:inline" />
+    <use
+       style="display:inline"
+       x="0"
+       y="0"
+       xlink:href="#lambda-gradient-dark"
+       id="use1393"
+       width="100%"
+       height="100%" />
     <use
        height="100%"
        width="100%"
