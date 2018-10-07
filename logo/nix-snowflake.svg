@@ -21,7 +21,13 @@
      id="defs4">
     <linearGradient
        inkscape:collect="always"
-       id="linearGradient5562">
+       id="gradient-light"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(70.650339,-1055.1511)"
+       x1="200.59668"
+       y1="351.41116"
+       x2="290.08701"
+       y2="506.18814">
       <stop
          style="stop-color:#699ad7;stop-opacity:1"
          offset="0"
@@ -37,7 +43,13 @@
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       id="linearGradient5053">
+       id="gradient-dark"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(864.69589,-1491.3405)"
+       x1="-584.19934"
+       y1="782.33563"
+       x2="-496.29703"
+       y2="937.71399">
       <stop
          style="stop-color:#415e9a;stop-opacity:1"
          offset="0"
@@ -77,26 +89,6 @@
        id="linearGradient5855"
        xlink:href="#linearGradient5960"
        inkscape:collect="always" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient5562"
-       id="gradient-light"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(70.650339,-1055.1511)"
-       x1="200.59668"
-       y1="351.41116"
-       x2="290.08701"
-       y2="506.18814" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient5053"
-       id="gradient-dark"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(864.69589,-1491.3405)"
-       x1="-584.19934"
-       y1="782.33563"
-       x2="-496.29703"
-       y2="937.71399" />
   </defs>
   <sodipodi:namedview
      id="base"
