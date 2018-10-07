@@ -18,51 +18,7 @@
    inkscape:version="0.92.0 r15299"
    sodipodi:docname="nix-snowflake.svg">
   <defs
-     id="defs4">
-    <linearGradient
-       inkscape:collect="always"
-       id="gradient-light"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(70.650339,-1055.1511)"
-       x1="200.59668"
-       y1="351.41116"
-       x2="290.08701"
-       y2="506.18814">
-      <stop
-         style="stop-color:#699ad7;stop-opacity:1"
-         offset="0"
-         id="stop5564" />
-      <stop
-         id="stop5566"
-         offset="0.24345198"
-         style="stop-color:#7eb1dd;stop-opacity:1" />
-      <stop
-         style="stop-color:#7ebae4;stop-opacity:1"
-         offset="1"
-         id="stop5568" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       id="gradient-dark"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(864.69589,-1491.3405)"
-       x1="-584.19934"
-       y1="782.33563"
-       x2="-496.29703"
-       y2="937.71399">
-      <stop
-         style="stop-color:#415e9a;stop-opacity:1"
-         offset="0"
-         id="stop5055" />
-      <stop
-         id="stop5057"
-         offset="0.23168644"
-         style="stop-color:#4a6baf;stop-opacity:1" />
-      <stop
-         style="stop-color:#5277c3;stop-opacity:1"
-         offset="1"
-         id="stop5059" />
-    </linearGradient>
+     id="defs-outer">
     <path
        sodipodi:nodetypes="cccccccccc"
        inkscape:connector-curvature="0"
@@ -258,10 +214,61 @@
      style="display:inline;opacity:1"
      sodipodi:insensitive="true"
      transform="translate(-156.33871,933.1905)">
+    <defs
+       id="defs-gradient">
+      <linearGradient
+         inkscape:collect="always"
+         id="gradient-light"
+         gradientUnits="userSpaceOnUse"
+         gradientTransform="translate(70.650339,-1055.1511)"
+         x1="200.59668"
+         y1="351.41116"
+         x2="290.08701"
+         y2="506.18814">
+        <stop
+           style="stop-color:#699ad7;stop-opacity:1"
+           offset="0"
+           id="stop5564" />
+        <stop
+           id="stop5566"
+           offset="0.24345198"
+           style="stop-color:#7eb1dd;stop-opacity:1" />
+        <stop
+           style="stop-color:#7ebae4;stop-opacity:1"
+           offset="1"
+           id="stop5568" />
+      </linearGradient>
+      <linearGradient
+         inkscape:collect="always"
+         id="gradient-dark"
+         gradientUnits="userSpaceOnUse"
+         gradientTransform="translate(864.69589,-1491.3405)"
+         x1="-584.19934"
+         y1="782.33563"
+         x2="-496.29703"
+         y2="937.71399">
+        <stop
+           style="stop-color:#415e9a;stop-opacity:1"
+           offset="0"
+           id="stop5055" />
+        <stop
+           id="stop5057"
+           offset="0.23168644"
+           style="stop-color:#4a6baf;stop-opacity:1" />
+        <stop
+           style="stop-color:#5277c3;stop-opacity:1"
+           offset="1"
+           id="stop5059" />
+      </linearGradient>
+    </defs>
     <use
        id="lambda-gradient-light"
-       style="fill:url(#gradient-light);"
-       xlink:href="#lambda" />
+       style="fill:url(#gradient-light)"
+       xlink:href="#lambda"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
     <use
        height="100%"
        width="100%"
@@ -294,8 +301,12 @@
        x="0" />
     <use
        id="lambda-gradient-dark"
-       style="fill:url(#gradient-dark);"
-       xlink:href="#lambda" />
+       style="fill:url(#gradient-dark)"
+       xlink:href="#lambda"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%" />
     <use
        height="100%"
        width="100%"
