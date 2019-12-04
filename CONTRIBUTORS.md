@@ -69,3 +69,6 @@ repository.
       * `bootloader/grub2-installer`
       * `bootloader/isolinux`
       * `bootloader/refind`
+
+  * CC BY-SA 4.0 (by nixos-artwork)
+      * `wallpapers/nix-wallpaper-nineish.*`
