@@ -77,3 +77,8 @@ repository.
 
   * CC BY-SA 4.0 (by nixos-artwork)
       * `wallpapers/nix-wallpaper-nineish-dark-gray.*`
+
+## @ericdallo
+
+  * CC BY-SA 4.0 (by nixos-artwork)
+      * `wallpapers/nix-wallpaper-dracula.png`
