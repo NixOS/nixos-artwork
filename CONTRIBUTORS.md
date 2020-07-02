@@ -72,3 +72,8 @@ repository.
 
   * CC BY-SA 4.0 (by nixos-artwork)
       * `wallpapers/nix-wallpaper-nineish.*`
+
+## @samuelgrf
+
+  * CC BY-SA 4.0 (by nixos-artwork)
+      * `wallpapers/nix-wallpaper-nineish-dark-gray.*`
