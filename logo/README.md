@@ -27,6 +27,19 @@ like O and C). The file has been built expecting the **Vegur602** font family
 instead of the *Vegur* font family. Such a font family can be built using the
 derivation and source files provided in the font folder.
 
+### Colours
+
+The exact code for the colours:
+
+ * Light blue: #7EBAE4
+ * Dark blue: #5277C3
+
+The logo has a baked-in shadow that may cause issues when using an eye dropper
+tool, or when imported in some software with worse support for SVG.
+
+Please make sure that the colours are the right one, and that the shadows are
+baked-in as expected.
+
 ### Using the logo
 
 The svg source files have a *logo-guide* and those with text a *guide* layer.
