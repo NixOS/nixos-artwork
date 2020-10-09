@@ -47,6 +47,15 @@ Ensure the snowflake has at least the given margin with any other elements with
 other elements when used. The source SVG files with text already have the
 margin baked into the files.
 
+### Using on a dark background
+
+When used on a dark background, use the *white* variant of the logo. If you
+need the text too, import it from the other variant and change its colour to
+white, keeping the spacing exact.
+
+This variant is monochrome, with the shadow gradients baked-in as opacity
+changes.
+
 License
 -------
 
