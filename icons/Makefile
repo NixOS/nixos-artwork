@@ -7,8 +7,11 @@ sizes = 16 24 32 48 64 72 96 128 256 512 1024
 theme = hicolor
 category = apps
 
-icons = $(foreach size,$(sizes),$(size)x$(size)/$(category)/nix-snowflake.png) \
-        scalable/$(category)/nix-snowflake.svg
+icons = \
+  $(foreach size,$(sizes),$(size)x$(size)/$(category)/nix-snowflake.png) \
+  scalable/$(category)/nix-snowflake.svg \
+  $(foreach size,$(sizes),$(size)x$(size)/$(category)/nix-snowflake-white.png) \
+  scalable/$(category)/nix-snowflake-white.svg
 
 install_dest = $(DESTDIR)$(prefix)/share/icons/$(theme)
 
@@ -19,6 +22,14 @@ all: $(icons)
 	convert -background none -resize $* $< $@
 
 scalable/$(category)/nix-snowflake.svg: ../logo/nix-snowflake.svg
+	@mkdir -p $(@D)
+	cp $< $@
+
+%/$(category)/nix-snowflake-white.png: ../logo/white.svg
+	@mkdir -p $(@D)
+	convert -background none -resize $* $< $@
+
+scalable/$(category)/nix-snowflake-white.svg: ../logo/white.svg
 	@mkdir -p $(@D)
 	cp $< $@
 
