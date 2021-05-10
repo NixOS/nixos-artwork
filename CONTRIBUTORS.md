@@ -82,3 +82,16 @@ repository.
 
   * CC BY-SA 4.0 (by nixos-artwork)
       * `wallpapers/nix-wallpaper-dracula.png`
+
+## @arcticspacefox
+
+  * CC BY-SA 4.0 (by nixos-artwork)
+      * `wallpapers/nixos-wallpaper-flat-hot.*`
+      * `wallpapers/nixos-wallpaper-ice.*`
+      * `wallpapers/nixos-wallpaper-ice-pattern-gradient-with-logo.*`
+      * `wallpapers/nixos-wallpaper-ice-pattern-gradient-with-logo-solid.*`
+      * `wallpapers/nixos-wallpaper-ice-pattern-gradient-blur-with-logo.*`
+      * `wallpapers/nixos-wallpaper-danger.*`
+      * `wallpapers/nixos-wallpaper-danger-topography.*`
+      * `wallpapers/nixos-wallpaper-monochrome-bright.*`
+      * `wallpapers/nixos-wallpaper-monochrome-dark.*`
