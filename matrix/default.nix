@@ -46,25 +46,35 @@ let
     </fontconfig>
   ''
   ) {};
-in
 
-# Yes, you can callPackage something else than a path!
-pkgs.callPackage (
+  archive = pkgs.runCommandNoCC "${build.name}-archive.tar.bz2" {} ''
+    cp -r --no-preserve=mode ${build} nixos-artwork-matrix-icons
+    tar cvjf $out nixos-artwork-matrix-icons
+  '';
 
-  { runCommandNoCC, inkscape, encode-sans, FONTCONFIG_FILE, ruby }:
-  runCommandNoCC "nixos-artwork-matrix-icons" {
-    nativeBuildInputs = [
-      inkscape
-      ruby
-    ];
+  # Yes, you can callPackage something else than a path!
+  build = pkgs.callPackage (
+
+    { runCommandNoCC, inkscape, encode-sans, FONTCONFIG_FILE, ruby }:
+    runCommandNoCC "nixos-artwork-matrix-icons" {
+      nativeBuildInputs = [
+        inkscape
+        ruby
+      ];
+      inherit FONTCONFIG_FILE;
+
+      passthru = {
+        inherit archive;
+      };
+    } ''
+      ruby ${./build.rb} ${./icons.src.svg}
+    ''
+
+  ) {
     inherit FONTCONFIG_FILE;
-  } ''
-    ruby ${./build.rb} ${./icons.src.svg}
-  ''
-
-) {
-  inherit FONTCONFIG_FILE;
-  ruby = pkgs.ruby.withPackages(p: [
-    p.nokogiri
-  ]);
-}
+    ruby = pkgs.ruby.withPackages(p: [
+      p.nokogiri
+    ]);
+  };
+in
+  build
