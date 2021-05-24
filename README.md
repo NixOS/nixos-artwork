@@ -5,7 +5,7 @@
 ** BIG NOTE ** the directory layout is in flux. Do not assume anything
 about the stability of the path of the images in this repository, yet.
 
-References to other Linux distributions: 
+References to other Linux distributions:
 
 * <https://wiki.debian.org/Grub/SplashImage>
 * <https://github.com/openSUSE/artwork>
@@ -27,3 +27,4 @@ Communication:
 
 * [Mailing list](https://groups.google.com/forum/#!forum/nix-devel)
 * [IRC - #nixos on freenode.net](irc://irc.freenode.net/#nixos)
+* [Matrix - #nix:nixos.org](https://app.element.io/#/room/#nix:nixos.org)
