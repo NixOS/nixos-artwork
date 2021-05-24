@@ -27,4 +27,4 @@ Communication:
 
 * [Mailing list](https://groups.google.com/forum/#!forum/nix-devel)
 * [IRC - #nixos on freenode.net](irc://irc.freenode.net/#nixos)
-* [Matrix - #nix:nixos.org](https://app.element.io/#/room/#nix:nixos.org)
+* [Matrix - #nix:nixos.org](https://matrix.to/#/#community:nixos.org)
