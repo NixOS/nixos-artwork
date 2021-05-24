@@ -82,3 +82,10 @@ repository.
 
   * CC BY-SA 4.0 (by nixos-artwork)
       * `wallpapers/nix-wallpaper-dracula.png`
+
+## @papojari
+
+  * [© 2021 Pokémon. © 1995–2021 Nintendo/Creatures Inc./GAME FREAK inc. Pokémon, Pokémon character names are trademarks of Nintendo.](https://www.pokemon.com/us/legal/)
+      * `wallpapers/nix-wallpaper-cryogonal-*`
+  * [Ubuntu font license](https://ubuntu.com/legal/font-licence)
+      * `wallpapers/nix-wallpaper-cryogonal-*`
