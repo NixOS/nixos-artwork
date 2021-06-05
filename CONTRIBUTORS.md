@@ -86,6 +86,8 @@ repository.
 ## @papojari
 
   * [© 2021 Pokémon. © 1995–2021 Nintendo/Creatures Inc./GAME FREAK inc. Pokémon, Pokémon character names are trademarks of Nintendo.](https://www.pokemon.com/us/legal/)
-      * `wallpapers/nix-wallpaper-cryogonal-*`
+      * the pokémon in `wallpapers/nix-wallpaper-cryogonal-*`
   * [Ubuntu font license](https://ubuntu.com/legal/font-licence)
-      * `wallpapers/nix-wallpaper-cryogonal-*`
+      * text in `wallpapers/nix-wallpaper-cryogonal-*`
+  * [Apache License 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE)
+      * icons in `wallpapers/nix-wallpaper-3d-showcase-*`
