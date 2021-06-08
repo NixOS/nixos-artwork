@@ -82,3 +82,8 @@ repository.
 
   * CC BY-SA 4.0 (by nixos-artwork)
       * `wallpapers/nix-wallpaper-dracula.png`
+
+## @papojari
+
+  * [Apache License 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE)
+      * icons in `wallpapers/nix-wallpaper-3d-showcase-*`
