@@ -26,4 +26,4 @@ References to other Linux distributions:
 Communication:
 
 * [Mailing list](https://groups.google.com/forum/#!forum/nix-devel)
-* [IRC - #nixos on freenode.net](irc://irc.freenode.net/#nixos)
+* [IRC - #nixos on libera.chat](irc://irc.libera.chat/#nixos)
