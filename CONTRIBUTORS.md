@@ -85,5 +85,5 @@ repository.
 
 ## @papojari
 
-  * [Apache License 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE)
+  * [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)
       * icons in `wallpapers/nix-wallpaper-3d-showcase-*`
