@@ -1442,6 +1442,41 @@
       </g>
     </g>
     <g
+       inkscape:label="marketing"
+       id="g762"
+       inkscape:groupmode="layer"
+       style="display:inline">
+      <path
+         d="m 0,0 v 576 h 832 a 256,256 0 0 1 192,86.67188 V 0 Z"
+         style="color:#000000;overflow:visible;opacity:1;fill:#ffc4fc;fill-opacity:1;stroke-width:2.89134;stroke-linecap:round;stroke-linejoin:round"
+         id="path752" />
+      <g
+         style="display:inline;opacity:0.994;fill:#ff0000"
+         id="g754" />
+      <path
+         id="path756"
+         style="color:#000000;overflow:visible;fill:#ff23f2;fill-opacity:1;stroke:none;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 0,512 v 64 H 640.00195 832 a 256,256 0 0 1 224.4434,132.87109 h 70.9179 A 320,320 0 0 0 832,512 h -0.23828 z" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:27.1412;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 356.31934,340.98112 c 4.55061,31.17569 16.58723,61.26678 27.51834,91.51803"
+         id="path12056"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:#ff23f2;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 283.18673,254.45063 713.27319,149.03854 712.82846,437.47344 283.62524,331.68547 Z"
+         id="path12058"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:28;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 283.80219,254.04431 v 77.7373"
+         id="path11804" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:28;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 712.91645,151.49743 V 434.32848"
+         id="path11806" />
+    </g>
+    <g
        sodipodi:insensitive="true"
        inkscape:groupmode="layer"
        id="g1278"
