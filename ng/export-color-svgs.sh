@@ -9,6 +9,8 @@ COLORS=$(
     sort -u
 );
 
+SVGFILE=out/${PROFILE}.svg
+
 {
 cat <<EOF
 <?xml version="1.0" standalone="no"?>
@@ -31,8 +33,8 @@ cat <<EOF
 </svg>
 EOF
 
-} > out/${PROFILE}.svg
-inkscape --shell --batch-process --actions='select-all;FitCanvasToSelection;FileSave' out/${PROFILE}.svg
+} > ${SVGFILE}
+inkscape --actions="file-open:${SVGFILE};select-all;fit-canvas-to-selection;export-filename:${SVGFILE};export-do;file-close"
 }
 
 for profile in nix nix-grid nix-gapless; do
