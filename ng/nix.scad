@@ -1,49 +1,51 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 
 // === Nix logo specification
-// number of lambdas. doesn't really work if changed in this model.
-num = 6;
 
 // Central aperture diameter, in units. It does produce nice effects if animated.
-aperture = 2;
+$aperture = 2;
 
 // lambda height in units. fun to play with
-length = 4;
+$length = 4;
 
 // Clipping polygon diameter, in units
-clipr = 8;
+$clipr = 8;
 
 
 // === Some calculated core stuff
 
-// lambda thickness, also a segment size. Should affects nothing except size.
-unit = 25;
+// number of lambdas. doesn't really work if changed in this model.
+num = 6;
 
 // The angle™
 th = 360 / num / 2;
 
 // Unit value of Y when mapped to coordinate space with angle between axes of "th"
-tunit = tan(th)*unit;
+function tunit() = tan(th)*$unit;
 
 // === Rendering props
 
+// Lambda thickness, also a segment size. Should affect nothing except size and gaps.
+$unit = 25;
+
 // Shrinkage for each of lambdas. Basically control inverse "font weight"
 $gaps = 1;
+
 // colors to use
-colors = ["#5277c3", "#7caedc"];
+colors = ["#5277C3", "#7EBAE4"];
 
 // inverse clipping order
 invclip = false;
 show_hexgrid = false;
 show_full = true;
 
-printed_version = "none"; // ["none", "grid", "one piece", "module"]
+printed_version = "none"; // ["none", "grid", "one piece", "module", "weights"]
 
 printed_h = 20;
 circle_r = 55;
 circle_t = 6;
 circle_h = 6;
-pin_l = 4*tunit;
+pin_l = 4*tunit();
 pin_r = 3;
 
 // Pin/hole size ratio, to account for plastic heat deformation
@@ -67,9 +69,9 @@ module hexgrid(thickness=1.5) union() {
     th_l = 180 / s;
     for (i=[0:s-1]) {
         rotate((i+0.5)*th_l)
-        for (i=[-clipr:clipr]) union() {
-            translate([i*unit/2,0])
-            square([thickness, clipr * unit * 2],center=true);
+        for (i=[-$clipr:$clipr]) union() {
+            translate([i*$unit/2,0])
+            square([thickness, $clipr * $unit * 2],center=true);
         };
     };
 }
@@ -81,16 +83,16 @@ module lambda() {
         union() {
             // Lambda arm
             rotate(-th)
-            translate([0,-tunit*length])
-            square([unit,length*tunit*2], center=true);
+            translate([0,-tunit()*$length])
+            square([$unit,$length*tunit()*2], center=true);
             // Lambda bar
             rotate(th)
-            square([unit,tunit*(length*2 + 2)], center=true);
+            square([$unit,tunit()*($length*2 + 2)], center=true);
         }
         // Cutting top and bottom of squares to be left with a perfect lambda
         // Lambda *almost* scales uniformly.
         // We just need to account for corner triangles, making it + 2 wider.
-        square([tunit*(length + 2), unit*length], center=true);
+        square([tunit()*($length + 2), $unit*$length], center=true);
     }
 }
 
@@ -105,7 +107,7 @@ module diff(nextangle, debug=false) {
 module clipper(){
     // that's not as easy to autotune as it would seem
     intersection() {
-        regular_polygon(num, clipr * tunit);
+        regular_polygon(num, $clipr * tunit());
         children();
     }
 }
@@ -116,7 +118,7 @@ module placed_lambda() {
     // cutting it up with the same lambda at the next place
     diff(360/num)
     // translation to endpoint
-    translate([tunit * -aperture, unit * -aperture])
+    translate([tunit() * -$aperture, $unit * -$aperture])
     // initial in-place rotation
     lambda();
 }
@@ -134,7 +136,7 @@ module make_pin(scl = 1, r = pin_r) {
     // Only rescale crossection, so length doesn't change
     scale([1,scl,scl])
 
-    translate([tunit * -aperture, unit * -aperture])
+    translate([tunit() * -$aperture, $unit * -$aperture])
     rotate(th)
     // extrude pin from the center to the side of a limbda
     translate([0,pin_l/2,0])
@@ -161,11 +163,10 @@ module render_module() {
         rotate((invclip ? -2 : 2) * 360/num) make_pin(hole_ratio);
     }
 }
-
 // Actual rendering
 if (printed_version == "grid") {
     for (x=[0:4], y=[0:4]) {
-        translate([tunit*(-4.5*y+12*x), -unit*(-6.5*y+1*x)]) difference() {
+        translate([tunit()*(-4.5*y+12*x), -$unit*(-6.5*y+1*x)]) difference() {
             render_logo();
             if (show_hexgrid)
                 hexgrid();
@@ -215,3 +216,14 @@ union() {
             hexgrid();
     }
 };
+
+if (printed_version == "weights")
+   for (gap=[1:5]) {
+        $gaps = 1;
+        $aperture = 2 * gap;
+        $length = 4 * gap;
+        $clipr = 8 * gap;
+        $unit = 25 / gap;
+        translate([(gap - 1) * 160,((gap - 1) % 2) * 160])
+        render_logo();
+ };

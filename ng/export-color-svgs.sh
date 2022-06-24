@@ -37,7 +37,7 @@ EOF
 inkscape --actions="file-open:${SVGFILE};select-all;fit-canvas-to-selection;export-filename:${SVGFILE};export-do;file-close"
 }
 
-for profile in nix nix-grid nix-gapless; do
+for profile in nix nix-megagrid nix-white; do
     export PROFILE=$profile
     export_svg
 done
