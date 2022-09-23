@@ -65,6 +65,11 @@ repository.
       * releases/18.03-impala/impala.xcf
       * releases/18.03-impala/impala.png
 
+## @pacc6
+
+  * CC BY-SA 4.0 (by nixos-artwork)
+      * `wallpapers/nix-wallpaper-nineish-solarized-*`
+
 ## @robberer
 
   * No specific license, all rights reserved @robberer. PR #5
