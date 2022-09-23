@@ -44,6 +44,20 @@ repository.
       * `kde/share/wallpapers/nixos-stripes/nixos-stripes.png`
       * `kde/share/wallpapers/nixos-stripes/nixos-stripes.xcf`
 
+## @MultisampledNight
+
+  * CC BY-SA 4.0
+      * `wallpaper/nix-wallpaper-gear.png`
+      * `wallpaper/nix-wallpaper-moonscape.png`
+      * `wallpaper/nix-wallpaper-recursive.png`
+      * `wallpaper/nix-wallpaper-waterfall.png`
+      * `wallpaper/nix-wallpaper-watersplash.png`
+      * `wallpaper/source/gear.blend`
+      * `wallpaper/source/moonscape.blend`
+      * `wallpaper/source/recursive.blend`
+      * `wallpaper/source/water-fall.blend`
+      * `wallpaper/source/water-splash.blend`
+
 ## @mogorman
   * cc0
       * relases/17.09-hummingbird/hummingbird.xcf
