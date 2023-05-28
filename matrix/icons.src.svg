@@ -1027,33 +1027,60 @@
     </g>
     <g
        sodipodi:insensitive="true"
-       inkscape:label="r13y"
+       inkscape:label="reproducible-builds"
        id="g2122"
        inkscape:groupmode="layer"
        style="display:none">
       <path
          d="m 0,0 v 576 h 832 a 256,256 0 0 1 192,86.67188 V 0 Z"
-         style="color:#000000;overflow:visible;opacity:1;fill:#deffce;fill-opacity:0.992157;stroke-width:2.89134;stroke-linecap:round;stroke-linejoin:round"
+         style="color:#000000;display:inline;overflow:visible;opacity:1;fill:#ffffff;fill-opacity:0.992157;stroke-width:2.89134;stroke-linecap:round;stroke-linejoin:round"
          id="path2112" />
       <g
          style="display:inline;opacity:0.994;fill:#ff0000"
          id="g2114" />
       <path
          id="path2116"
-         style="color:#000000;overflow:visible;fill:#bdec1b;fill-opacity:1;stroke:none;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="color:#000000;display:inline;overflow:visible;fill:#1e5b96;fill-opacity:1;stroke:none;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m 0,512 v 64 H 640.00195 832 a 256,256 0 0 1 224.4434,132.87109 h 70.9179 A 320,320 0 0 0 832,512 h -0.23828 z" />
-      <text
-         transform="scale(0.96754589,1.0335427)"
-         id="text2120"
-         y="433.55325"
-         x="527.61877"
-         style="font-size:396.098px;line-height:934.207px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#445d27;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Encode Sans Extra Condensed';-inkscape-font-specification:'Encode Sans Extra Condensed Heavy';fill:#445d27;fill-opacity:1;stroke:none;stroke-width:1px"
-           y="433.55325"
-           x="527.61877"
-           id="tspan2118"
-           sodipodi:role="line">r13y</tspan></text>
+      <g
+         id="g1756"
+         transform="matrix(10.946507,0,0,10.946507,-277.6424,0)">
+        <g
+           id="circle2_25_"
+           transform="rotate(45,28.648425,77.049372)">
+					<circle
+   fill="#1e5b96"
+   cx="47.136002"
+   cy="-7.244"
+   r="9.8000002"
+   id="circle861" />
+
+				</g>
+        <g
+           id="circle8_25_"
+           transform="rotate(45,28.648425,77.049372)">
+					<circle
+   fill="#1e5b96"
+   cx="5.6999998"
+   cy="34.193001"
+   r="9.8000002"
+   id="circle870" />
+
+				</g>
+        <g
+           id="g24_25_"
+           transform="rotate(45,28.648425,77.049372)">
+					<g
+   id="polygon22_25_">
+						<polygon
+   fill="#2b89d6"
+   points="19.842,3.929 8.953,14.818 24.863,14.747 24.792,30.657 35.681,19.768 35.681,3.929 "
+   id="polygon885" />
+
+					</g>
+
+				</g>
+      </g>
     </g>
     <g
        sodipodi:insensitive="true"
