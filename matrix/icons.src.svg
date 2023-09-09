@@ -1026,6 +1026,36 @@
            style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Encode Sans Extra Condensed';-inkscape-font-specification:'Encode Sans Extra Condensed Heavy';fill:#27385d;fill-opacity:1;stroke:none;stroke-width:1px">dev</tspan></text>
     </g>
     <g
+       style="display:inline"
+       inkscape:groupmode="layer"
+       id="g748"
+       inkscape:label="de"
+       sodipodi:insensitive="true">
+      <path
+         id="path738"
+         style="color:#000000;overflow:visible;opacity:1;fill:#f2f8fd;fill-opacity:0.992157;stroke-width:2.89134;stroke-linecap:round;stroke-linejoin:round"
+         d="m 0,0 v 576 h 832 a 256,256 0 0 1 192,86.67188 V 0 Z" />
+      <g
+         id="g740"
+         style="display:inline;opacity:0.994;fill:#ff0000" />
+      <path
+         d="m 0,512 v 64 H 640.00195 832 a 256,256 0 0 1 224.4434,132.87109 h 70.9179 A 320,320 0 0 0 832,512 h -0.23828 z"
+         style="color:#000000;overflow:visible;fill:#7ebae4;fill-opacity:1;stroke:none;stroke-width:32;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path742" />
+      <text
+         xml:space="preserve"
+         style="font-size:396.098px;line-height:934.207px;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#27385d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="527.61877"
+         y="433.55325"
+         id="text746"
+         transform="scale(0.96754589,1.0335427)"><tspan
+           sodipodi:role="line"
+           id="tspan744"
+           x="527.61877"
+           y="433.55325"
+           style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:'Encode Sans Extra Condensed';-inkscape-font-specification:'Encode Sans Extra Condensed Heavy';fill:#27385d;fill-opacity:1;stroke:none;stroke-width:1px">de</tspan></text>
+    </g>
+    <g
        sodipodi:insensitive="true"
        inkscape:label="r13y"
        id="g2122"
