@@ -821,7 +821,7 @@
        inkscape:label="doom-emacs"
        id="g868"
        inkscape:groupmode="layer"
-       style="display:inline">
+       style="display:none">
       <path
          d="m 0,0 v 576 h 832 a 256,256 0 0 1 192,86.67188 V 0 Z"
          style="color:#000000;display:inline;overflow:visible;opacity:1;fill:#dfdfdf;fill-opacity:0.99215686;stroke-width:2.89134;stroke-linecap:round;stroke-linejoin:round"
