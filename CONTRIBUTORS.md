@@ -15,6 +15,14 @@ repository.
       * `swag/flyers/happier-hacking/flyer-optimized.svg`
       * `swag/flyers/happier-hacking/Readme.md`
 
+## @intergrav
+
+  * CC BY-SA 4.0
+    * `wallpapers/nix-wallpaper-binary-blue.png`
+    * `wallpapers/nix-wallpaper-binary-black.png`
+    * `wallpapers/nix-wallpaper-binary-white.png`
+    * `wallpapers/nix-wallpaper-binary-red.png`
+
 ## @ericsagnes
 
   * cc0 PR #15
