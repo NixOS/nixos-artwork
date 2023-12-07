@@ -9,5 +9,5 @@ PS4=" $ "
 set -x
 
 for f in *.svg; do
-	inkscape -e "${f%.*}.png" "$f"
+	inkscape -o "${f%.*}.png" "$f"
 done
