@@ -1,4 +1,4 @@
-modules = icons
+modules = icons bootloader
 
 .PHONY: $(modules) install clean all
 
