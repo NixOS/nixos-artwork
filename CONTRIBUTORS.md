@@ -104,7 +104,7 @@ repository.
 
 ## [@betalars](https://www.artstation.com/betalars) [@nea-insomnia](https://twitter.com/neainsomnia) @nek0
 
-    * CC BY-SA 4.0
+  * CC BY-SA 4.0
       * `shirt/front_design.svg`
       * `shirt/shirt_back_design.svg`
 
