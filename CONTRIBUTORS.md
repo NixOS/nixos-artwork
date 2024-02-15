@@ -112,7 +112,14 @@ repository.
 
 ## [@betalars](https://www.artstation.com/betalars) [@nea-insomnia](https://twitter.com/neainsomnia) @nek0
 
-    * CC BY-SA 4.0
+  * CC BY-SA 4.0
       * `shirt/front_design.svg`
       * `shirt/shirt_back_design.svg`
 
+## [@hcwf](https://github.com/hcwf)
+
+  * CC BY-SA 4.0
+      * `wallpapers/nixos-wallpaper-catppuccin-latte.*`
+      * `wallpapers/nixos-wallpaper-catppuccin-frappe.*`
+      * `wallpapers/nixos-wallpaper-catppuccin-macchiato.*`
+      * `wallpapers/nixos-wallpaper-catppuccin-mocha.*`
