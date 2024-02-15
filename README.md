@@ -2,8 +2,8 @@
 
 ## Artwork for the [NixOS](http://nixos.org) organization.
 
-** BIG NOTE ** the directory layout is in flux. Do not assume anything
-about the stability of the path of the images in this repository, yet.
+**BIG NOTE the directory layout is in flux. Do not assume anything
+about the stability of the path of the images in this repository, yet.**
 
 References to other Linux distributions: 
 
