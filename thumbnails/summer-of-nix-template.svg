@@ -7,7 +7,7 @@
    preserveAspectRatio="xMidYMid"
    version="1.0"
    id="svg1181"
-   sodipodi:docname="son-pls-valentin-gagarin.svg"
+   sodipodi:docname="summer-of-nix-template.svg"
    inkscape:export-filename="..\Desktop\son-pls-valentin-gagarin.svg"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
@@ -1716,30 +1716,30 @@
      id="text1475"
      style="font-weight:bold;font-size:55.2px;line-height:1.4;font-family:Vegur;-inkscape-font-specification:'Vegur Bold';white-space:pre;shape-inside:url(#rect1477);shape-padding:0;display:inline;fill:#5277c3;fill-opacity:1"><tspan
        x="72"
-       y="215.268"
-       id="tspan22941">title-line-1
+       y="214.97906"
+       id="tspan1">title-line-1
 </tspan><tspan
        x="72"
-       y="292.548"
-       id="tspan22943">title-line-2</tspan></text>
+       y="292.25906"
+       id="tspan2">title-line-2</tspan></text>
   <text
      xml:space="preserve"
      transform="scale(0.75)"
      id="text8722"
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.4px;font-family:Vegur;-inkscape-font-specification:'Vegur Bold';white-space:pre;shape-inside:url(#rect8724);display:inline;fill:#5277c3;fill-opacity:1"><tspan
        x="72"
-       y="486.056"
-       id="tspan22945">speaker-name</tspan></text>
+       y="485.89687"
+       id="tspan3">speaker-name</tspan></text>
   <text
      xml:space="preserve"
      transform="scale(0.75)"
      id="text15992"
      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.4px;line-height:1.4;font-family:Vegur;-inkscape-font-specification:'Vegur Bold';white-space:pre;shape-inside:url(#rect15994);display:inline;fill:#5277c3;fill-opacity:1"><tspan
        x="71.666016"
-       y="598.98834"
-       id="tspan22947">date
+       y="598.82922"
+       id="tspan4">date
 </tspan><tspan
        x="71.666016"
-       y="641.54834"
-       id="tspan22949">time</tspan></text>
+       y="641.38922"
+       id="tspan5">time</tspan></text>
 </svg>
