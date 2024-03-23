@@ -100,6 +100,9 @@ repository.
   * CC BY-SA 4.0 (by nixos-artwork)
       * `wallpapers/nix-wallpaper-nineish.*`
 
+  * CC BY-SA 4.0 (by Samuel Dionne-Riel and Tim Cuthbertson for the lambdaflake logo)
+      * `ofborg/ofborg.*`
+
 ## @samuelgrf
 
   * CC BY-SA 4.0 (by nixos-artwork)
