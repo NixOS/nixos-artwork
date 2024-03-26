@@ -5,7 +5,7 @@
   icons = pkgs.stdenv.mkDerivation {
     name = "nix-icons";
     srcs = lib.cleanSource ./.;
-    buildInputs = [ pkgs.imagemagick ];
+    buildInputs = with pkgs; [ imagemagick xmlstarlet ];
     makeFlags = [ "DESTDIR=$(out)" "prefix=" ];
   };
 }

@@ -17,21 +17,33 @@ install_dest = $(DESTDIR)$(prefix)/share/icons/$(theme)
 
 all: $(icons)
 
-%/$(category)/nix-snowflake.png: ../logo/nix-snowflake.svg
+%/$(category)/nix-snowflake.png: scalable/$(category)/nix-snowflake.svg
 	@mkdir -p $(@D)
 	convert -background none -resize $* $< $@
 
 scalable/$(category)/nix-snowflake.svg: ../logo/nix-snowflake.svg
 	@mkdir -p $(@D)
-	cp $< $@
+	xmlstarlet ed \
+		-u '/svg:svg/@height' -x 'string(/svg:svg/@width)' \
+		-a '/svg:svg' \
+			-t attr \
+			-n 'preserveAspectRatio' \
+			-v "xMidYMid meet" \
+		< $< > $@
 
-%/$(category)/nix-snowflake-white.png: ../logo/white.svg
+%/$(category)/nix-snowflake-white.png: scalable/$(category)/nix-snowflake-white.svg
 	@mkdir -p $(@D)
 	convert -background none -resize $* $< $@
 
 scalable/$(category)/nix-snowflake-white.svg: ../logo/white.svg
 	@mkdir -p $(@D)
-	cp $< $@
+	xmlstarlet ed \
+		-u '/svg:svg/@height' -x 'string(/svg:svg/@width)' \
+		-a '/svg:svg' \
+			-t attr \
+			-n 'preserveAspectRatio' \
+			-v "xMidYMid meet" \
+		< $< > $@
 
 $(install_dest)/%: %
 	install -D $< $@
