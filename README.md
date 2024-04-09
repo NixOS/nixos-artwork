@@ -1,15 +1,17 @@
-[<img src="https://nixos.org/logo/nixos-hires.png" width="500px" alt="logo" />](https://nixos.org/nixos)
+<p align="center">
+  <a href="https://nixos.org">
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NixOS/nixos-homepage/main/public/logo/nixos-hires.png">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NixOS/nixos-artwork/master/logo/nixos-white.png">
+      <img src="https://raw.githubusercontent.com/NixOS/nixos-homepage/main/public/logo/nixos-hires.png" width="500px" alt="NixOS logo">
+    </picture>
+  </a>
+</p>
 
 ## Artwork for the [NixOS](http://nixos.org) organization.
 
-** BIG NOTE ** the directory layout is in flux. Do not assume anything
-about the stability of the path of the images in this repository, yet.
-
-References to other Linux distributions: 
-
-* <https://wiki.debian.org/Grub/SplashImage>
-* <https://github.com/openSUSE/artwork>
-* <https://gitorious.org/opensuse/kdebase4-opensuse/>
+> [!NOTE]
+> The directory layout is work in progress. Do not assume anything about the stability of the path of the images in this repository, yet.
 
 * * *
 
@@ -17,14 +19,14 @@ References to other Linux distributions:
 
 [NixOS and nixpkgs are in a separate repository](https://github.com/NixOS/nixpkgs)
 
-* [NixOS installation instructions](https://nixos.org/nixos/manual/#ch-installation)
-* [Documentation (Nix Expression Language chapter)](https://nixos.org/nix/manual/#ch-expression-language)
-* [Manual (How to write packages for Nix)](https://nixos.org/nixpkgs/manual/)
-* [Manual (NixOS)](https://nixos.org/nixos/manual/)
-* [Community maintained wiki](https://nixos.wiki/)
-
 Communication:
 
-* [Mailing list](https://groups.google.com/forum/#!forum/nix-devel)
-* [Matrix - #nix:nixos.org](https://matrix.to/#/#nix:nixos.org)
-* [IRC - #nixos on libera.chat](irc://irc.libera.chat/#nixos)
+ - [See the main NixOS repo README](https://github.com/NixOS/nixpkgs/blob/master/README.md#community)
+
+* * *
+
+## Similar projects elsewhere
+
+* <https://wiki.debian.org/Grub/SplashImage>
+* <https://github.com/openSUSE/artwork>
+* <https://gitorious.org/opensuse/kdebase4-opensuse/>
