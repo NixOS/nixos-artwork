@@ -1,11 +1,18 @@
-{ pkgs ? import <nixpkgs> {},
-  lib ? pkgs.lib }:
+{ pkgs ? import <nixpkgs> {} }:
 
 {
-  icons = pkgs.stdenv.mkDerivation {
-    name = "nix-icons";
-    srcs = lib.cleanSource ./.;
-    buildInputs = [ pkgs.imagemagick ];
-    makeFlags = [ "DESTDIR=$(out)" "prefix=" ];
-  };
+  icons = pkgs.callPackage (
+    { stdenv
+    , lib
+    , inkscape
+    , imagemagick
+    }:
+    stdenv.mkDerivation {
+      name = "nixos-icons";
+      srcs = lib.cleanSource ./.;
+      sourceRoot = "source/icons";
+      nativeBuildInputs = [ inkscape imagemagick ];
+      makeFlags = [ "prefix=$(out)" ];
+    }
+  ) {};
 }
