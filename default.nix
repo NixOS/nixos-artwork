@@ -1,11 +1,31 @@
-{ pkgs ? import <nixpkgs> {},
-  lib ? pkgs.lib }:
+{ pkgs ? import <nixpkgs> {} }:
 
 {
-  icons = pkgs.stdenv.mkDerivation {
-    name = "nix-icons";
-    srcs = lib.cleanSource ./.;
-    buildInputs = [ pkgs.imagemagick ];
-    makeFlags = [ "DESTDIR=$(out)" "prefix=" ];
-  };
+  bootloader = pkgs.callPackage (
+    { stdenv
+    , lib
+    , grub2_efi
+    }:
+    stdenv.mkDerivation {
+      name = "nixos-grub-installer-theme";
+      srcs = lib.cleanSource ./.;
+      sourceRoot = "source/bootloader";
+      nativeBuildInputs = [ grub2_efi ];
+      makeFlags = [ "prefix=$(out)" ];
+    }
+  ) {};
+  icons = pkgs.callPackage (
+    { stdenv
+    , lib
+    , inkscape
+    , imagemagick
+    }:
+    stdenv.mkDerivation {
+      name = "nixos-icons";
+      srcs = lib.cleanSource ./.;
+      sourceRoot = "source/icons";
+      nativeBuildInputs = [ inkscape imagemagick ];
+      makeFlags = [ "prefix=$(out)" ];
+    }
+  ) {};
 }

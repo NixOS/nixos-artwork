@@ -17,19 +17,19 @@ install_dest = $(DESTDIR)$(prefix)/share/icons/$(theme)
 
 all: $(icons)
 
-%/$(category)/nix-snowflake.png: ../logo/nix-snowflake.svg
+%/$(category)/nix-snowflake.png: ../logo/nix-snowflake-colours.svg
 	@mkdir -p $(@D)
 	convert -background none -resize $* $< $@
 
-scalable/$(category)/nix-snowflake.svg: ../logo/nix-snowflake.svg
+scalable/$(category)/nix-snowflake.svg: ../logo/nix-snowflake-colours.svg
 	@mkdir -p $(@D)
 	cp $< $@
 
-%/$(category)/nix-snowflake-white.png: ../logo/white.svg
+%/$(category)/nix-snowflake-white.png: ../logo/nix-snowflake-white.svg
 	@mkdir -p $(@D)
 	convert -background none -resize $* $< $@
 
-scalable/$(category)/nix-snowflake-white.svg: ../logo/white.svg
+scalable/$(category)/nix-snowflake-white.svg: ../logo/nix-snowflake-white.svg
 	@mkdir -p $(@D)
 	cp $< $@
 
