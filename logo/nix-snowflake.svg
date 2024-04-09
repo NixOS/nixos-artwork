@@ -206,7 +206,7 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient5562"
-       id="linearGradient4328"
+       id="gradient-light"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(70.650339,-1055.1511)"
        x1="200.59668"
@@ -216,7 +216,7 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient5053"
-       id="linearGradient4330"
+       id="gradient-dark"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(864.69589,-1491.3405)"
        x1="-584.19934"
@@ -452,9 +452,9 @@
     <path
        sodipodi:nodetypes="cccccccccc"
        inkscape:connector-curvature="0"
-       id="path3336-6"
+       id="lambda-gradient-light"
        d="m 309.54892,-710.38827 122.19683,211.67512 -56.15706,0.5268 -32.6236,-56.8692 -32.85645,56.5653 -27.90237,-0.011 -14.29086,-24.6896 46.81047,-80.4901 -33.22946,-57.8257 z"
-       style="opacity:1;fill:url(#linearGradient4328);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:1;fill:url(#gradient-light);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <use
        height="100%"
        width="100%"
@@ -462,7 +462,7 @@
        id="use3439-6"
        inkscape:transform-center-y="151.59082"
        inkscape:transform-center-x="124.43045"
-       xlink:href="#path3336-6"
+       xlink:href="#lambda-gradient-light"
        y="0"
        x="0" />
     <use
@@ -472,7 +472,7 @@
        id="use3445-0"
        inkscape:transform-center-y="75.573958"
        inkscape:transform-center-x="-168.20651"
-       xlink:href="#path3336-6"
+       xlink:href="#lambda-gradient-light"
        y="0"
        x="0" />
     <use
@@ -482,13 +482,13 @@
        id="use3449-5"
        inkscape:transform-center-y="-139.94592"
        inkscape:transform-center-x="59.669705"
-       xlink:href="#path3336-6"
+       xlink:href="#lambda-gradient-light"
        y="0"
        x="0" />
     <path
-       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient4330);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#gradient-dark);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
        d="m 309.54892,-710.38827 122.19683,211.67512 -56.15706,0.5268 -32.6236,-56.8692 -32.85645,56.5653 -27.90237,-0.011 -14.29086,-24.6896 46.81047,-80.4901 -33.22946,-57.8256 z"
-       id="path4260-0"
+       id="lambda-gradient-dark"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccc" />
     <use
@@ -496,7 +496,7 @@
        width="100%"
        transform="rotate(120,407.33916,-716.08356)"
        id="use4354-5"
-       xlink:href="#path4260-0"
+       xlink:href="#lambda-gradient-dark"
        y="0"
        x="0"
        style="display:inline" />
@@ -505,7 +505,7 @@
        width="100%"
        transform="rotate(-120,407.28823,-715.86995)"
        id="use4362-2"
-       xlink:href="#path4260-0"
+       xlink:href="#lambda-gradient-dark"
        y="0"
        x="0"
        style="display:inline" />
