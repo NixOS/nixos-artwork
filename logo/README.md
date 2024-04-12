@@ -56,6 +56,17 @@ white, keeping the spacing exact.
 This variant is monochrome, with the shadow gradients baked-in as opacity
 changes.
 
+### Optimized version
+
+The SVG files in this directory are the authoring files.
+
+In other words, they are busy with inkscape-specific properties, used when
+editing the files.
+
+If what is needed is a file optimized for size, and for using as an asset,
+the Nix expression in this directory can be used to produce optimized SVGs.
+
+
 License
 -------
 

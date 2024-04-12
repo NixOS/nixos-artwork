@@ -28,4 +28,5 @@
       makeFlags = [ "prefix=$(out)" ];
     }
   ) {};
+  logo = pkgs.callPackage ./logo/package.nix {};
 }
