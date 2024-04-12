@@ -41,17 +41,6 @@ repository.
   * No specific license, all rights reserved @jagajaga. PR #2
       * `grub-background/grub-1.xpm`
 
-## @lethalman
-
-  * No specific license, all rights reserved @lethalman. Issue #1
-      * `gnome/Gnome_Dark.png`
-      * `gnome/share/backgrounds/gnome/Gnome_Dark.jpg`
-  * No specified liense, upstream wallpaper is GPL, modification by @lethalman. Assumed to be GPL. Commit b1c912ad918c256c7ebf2f5c2960a66cbc58570a
-	  * [Original by ivan-cukic](https://ivan-cukic.deviantart.com/art/KDE-Stripes-175023606)
-	  * [Contributed to the KDE project](https://github.com/KDE/kde-workspace/commit/bbd0bc62c7cbb074783af01086602c4de03fe8ac) as [GPL](https://github.com/KDE/kde-workspace/blob/bbd0bc62c7cbb074783af01086602c4de03fe8ac/COPYING)
-      * `kde/share/wallpapers/nixos-stripes/nixos-stripes.png`
-      * `kde/share/wallpapers/nixos-stripes/nixos-stripes.xcf`
-
 ## @MultisampledNight
 
   * CC BY-SA 4.0
