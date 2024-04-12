@@ -69,13 +69,6 @@ repository.
 
   * No specific license, all rights reserved @robberer. PR #5
       * `common/wallpapers/nixos-border.png`
-  * No specific license, all rights reserved @robberer. PR #4
-      * `common/grub2-background/grub-nixos-1.png`
-      * `common/grub2-background/grub-nixos-1.xcf`
-      * `common/grub2-background/grub-nixos-2.png`
-      * `common/grub2-background/grub-nixos-2.xcf`
-      * `common/grub2-background/grub-nixos-3.png`
-      * `common/grub2-background/grub-nixos-3.xcf`
 
 ## @samueldr
 
