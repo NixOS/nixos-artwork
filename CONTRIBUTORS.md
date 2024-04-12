@@ -34,11 +34,6 @@ repository.
       * `wallpapers/nix-wallpaper-stripes-logo.png`
       * `wallpapers/nix-wallpaper-stripes.png`
 
-## @jagajaga
-
-  * [Upstream](https://github.com/jagajaga/nixos-slim-theme), MIT.
-      * `slim/themes/nixos-theme.tar.gz`
-
 ## @MultisampledNight
 
   * CC BY-SA 4.0
