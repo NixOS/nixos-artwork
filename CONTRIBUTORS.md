@@ -8,13 +8,6 @@ directory.
 Unless otherwise noted, contributions are shared under the license of this
 repository.
 
-## @cillianderoiste
-
-  * No specific license, all rights reserved @cillianderoiste. PR #10
-      * `swag/flyers/happier-hacking/flyer-multi.pdf`
-      * `swag/flyers/happier-hacking/flyer-optimized.svg`
-      * `swag/flyers/happier-hacking/Readme.md`
-
 ## @intergrav
 
   * CC BY-SA 4.0
