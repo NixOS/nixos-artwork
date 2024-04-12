@@ -2,14 +2,6 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="147mm"
    height="145mm"
    viewBox="-105 0 727 720"
@@ -19,41 +11,17 @@
    sodipodi:docname="nixos-text-below.svg"
    inkscape:export-filename="/Users/wmertens/Desktop/nixos-text-below.png"
    inkscape:export-xdpi="90"
-   inkscape:export-ydpi="90">
+   inkscape:export-ydpi="90"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs4">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient5562">
-      <stop
-         style="stop-color:#699ad7;stop-opacity:1"
-         offset="0"
-         id="stop5564" />
-      <stop
-         id="stop5566"
-         offset="0.24345198"
-         style="stop-color:#7eb1dd;stop-opacity:1" />
-      <stop
-         style="stop-color:#7ebae4;stop-opacity:1"
-         offset="1"
-         id="stop5568" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient5053">
-      <stop
-         style="stop-color:#415e9a;stop-opacity:1"
-         offset="0"
-         id="stop5055" />
-      <stop
-         id="stop5057"
-         offset="0.23168644"
-         style="stop-color:#4a6baf;stop-opacity:1" />
-      <stop
-         style="stop-color:#5277c3;stop-opacity:1"
-         offset="1"
-         id="stop5059" />
-    </linearGradient>
     <linearGradient
        id="linearGradient5960"
        inkscape:collect="always">
@@ -80,26 +48,6 @@
        id="linearGradient5855"
        xlink:href="#linearGradient5960"
        inkscape:collect="always" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient5562"
-       id="linearGradient5384"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(70.650339,-1055.1511)"
-       x1="200.59668"
-       y1="351.41116"
-       x2="290.08701"
-       y2="506.18814" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient5053"
-       id="linearGradient5386"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(864.69589,-1491.3405)"
-       x1="-584.19934"
-       y1="782.33563"
-       x2="-496.29703"
-       y2="937.71399" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -123,7 +71,10 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -132,7 +83,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
