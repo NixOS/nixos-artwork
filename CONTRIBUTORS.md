@@ -38,8 +38,6 @@ repository.
 
   * [Upstream](https://github.com/jagajaga/nixos-slim-theme), MIT.
       * `slim/themes/nixos-theme.tar.gz`
-  * No specific license, all rights reserved @jagajaga. PR #2
-      * `grub-background/grub-1.xpm`
 
 ## @MultisampledNight
 
