@@ -65,11 +65,6 @@ repository.
   * CC BY-SA 4.0 (by nixos-artwork)
       * `wallpapers/nix-wallpaper-nineish-solarized-*`
 
-## @robberer
-
-  * No specific license, all rights reserved @robberer. PR #5
-      * `common/wallpapers/nixos-border.png`
-
 ## @samueldr
 
   * CC BY-SA 4.0 (by nixos-artwork), with Breeze Icons under LGPL.
