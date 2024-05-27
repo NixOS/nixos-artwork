@@ -11,6 +11,10 @@ repository.
 ## @intergrav
 
   * CC BY-SA 4.0
+    * `wallpapers/nix-wallpaper-binary-blue_8k.png`
+    * `wallpapers/nix-wallpaper-binary-black_8k.png`
+    * `wallpapers/nix-wallpaper-binary-white_8k.png`
+    * `wallpapers/nix-wallpaper-binary-red_8k.png`
     * `wallpapers/nix-wallpaper-binary-blue.png`
     * `wallpapers/nix-wallpaper-binary-black.png`
     * `wallpapers/nix-wallpaper-binary-white.png`
