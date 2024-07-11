@@ -1,0 +1,1 @@
+Use https://github.com/UWPCommunity/UWP-Visual-Asset-Generator to generate these images
