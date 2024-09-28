@@ -90,3 +90,8 @@ repository.
       * `wallpapers/nixos-wallpaper-catppuccin-frappe.*`
       * `wallpapers/nixos-wallpaper-catppuccin-macchiato.*`
       * `wallpapers/nixos-wallpaper-catppuccin-mocha.*`
+
+## [@isabelroses](https://github.com/isabelroses)
+
+  * CC BY-SA 4.0
+      * `wallpapers/nix-wallpaper-nineish-catppuccin*`
