@@ -95,3 +95,9 @@ repository.
 
   * CC BY-SA 4.0
       * `wallpapers/nix-wallpaper-nineish-catppuccin*`
+
+## [@ingenarel](https://github.com/ingenarel)
+
+  * CC BY-SA 4.0
+      * `wallpapers/nix-wallpaper-trippy.png`
+      * `wallpapers/source/trippy.blend`
