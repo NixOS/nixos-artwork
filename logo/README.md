@@ -77,4 +77,4 @@ The logo is made available under a [CC-BY license](https://creativecommons.org/l
 Credits
 -------
 
-Logo designed by Tim Cuthbertson (@timbertson)
+Logo [originally](https://github.com/NixOS/nixos-homepage/commit/d5af1e3971822b8a3ec19689a17464558baf7244) designed by [Simon Frankau](https://arbitrary.name/) (@simon-frankau) and revised by [Tim Cuthbertson](https://gfxmonk.net/) (@timbertson)
