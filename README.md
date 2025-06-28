@@ -1,32 +1,13 @@
-<p align="center">
-  <a href="https://nixos.org">
-    <picture>
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NixOS/nixos-homepage/main/public/logo/nixos-hires.png">
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NixOS/nixos-artwork/master/logo/nixos-white.png">
-      <img src="https://raw.githubusercontent.com/NixOS/nixos-homepage/main/public/logo/nixos-hires.png" width="500px" alt="NixOS logo">
-    </picture>
-  </a>
-</p>
+# nixos-artwork (Archived)
 
-## Artwork for the [NixOS](http://nixos.org) organization.
+> **Note:** This repository is no longer maintained and has been publicly archived.
 
-> [!NOTE]
-> The directory layout is work in progress. Do not assume anything about the stability of the path of the images in this repository, yet.
+The contents of this repository have been reorganized to better separate official branding assets from community contributions:
 
-* * *
+- **Official branding assets** are now maintained in the [**nixos/branding**](https://github.com/NixOS/branding) repository.
+- **Community artwork** can now be shared and showcased on the [**NixOS Artwork wiki page**](https://wiki.nixos.org/wiki/Artwork).
 
-## NixOS project links
+This repository previously contained a mix of official and community-created artwork.
+With the creation of dedicated locations for both categories, this repository has been archived to avoid confusion and duplication.
 
-[NixOS and nixpkgs are in a separate repository](https://github.com/NixOS/nixpkgs)
-
-Communication:
-
- - [See the main NixOS repo README](https://github.com/NixOS/nixpkgs/blob/master/README.md#community)
-
-* * *
-
-## Similar projects elsewhere
-
-* <https://wiki.debian.org/Grub/SplashImage>
-* <https://github.com/openSUSE/artwork>
-* <https://gitorious.org/opensuse/kdebase4-opensuse/>
+For questions or contributions, please refer to the appropriate location above.
